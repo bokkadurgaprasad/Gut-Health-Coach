@@ -1,0 +1,90 @@
+# ========== Python Bytecode & Cache ==========
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ========== Virtual Environment ==========
+.venv/
+env/
+ENV/
+venv/
+*.env
+*.venv
+
+# ========== Logs & Runtime Files ==========
+*.log
+*.pid
+*.seed
+*.out
+*.tmp
+*.swp
+*.bak
+*.lock
+
+# ========== Model Weights & Large Files ==========
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.pb
+*.tflite
+*.onnx
+*.joblib
+*.npy
+*.npz
+
+# Hugging Face & LLM cache
+.cache/
+transformers_cache/
+datasets_cache/
+*.gguf
+*.safetensors
+
+# ========== IDE and Editor Settings ==========
+.vscode/
+.idea/
+*.code-workspace
+
+# ========== Jupyter Notebook Checkpoints ==========
+.ipynb_checkpoints/
+
+# ========== OS / File System Specific ==========
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ========== Test / Coverage ==========
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+.pytest_cache/
+
+# ========== Misc Files ==========
+*.sqlite3
+*.db
+*.db-journal
+
+# ========== Git Ignore for File Lists ==========
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.yml
+*.yaml
+
+# Uncomment below if you want to ignore media/video samples
+# video_samples/
+# *.mp4
+# *.webm
+# *.avi
