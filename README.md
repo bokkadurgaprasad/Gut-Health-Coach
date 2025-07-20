@@ -21,26 +21,6 @@ The Gut Health Coach is a sophisticated RAG-based system that delivers empatheti
 - **📊 Real-time Metrics**: Performance monitoring with response times, empathy scores, and source attribution
 - **🖥️ User-Friendly Interface**: Professional Gradio web application with responsive design
 
-## 🏗️ System Architecture
-
-```mermaid
-graph TD
-    A[User Query] --> B[Gradio Interface]
-    B --> C[RAG Pipeline]
-    C --> D[Vector Store (FAISS)]
-    C --> E[PubMedBERT Embeddings]
-    D --> F[Document Retrieval]
-    F --> G[BioMistral-7B LLM]
-    G --> H[Empathy Engine]
-    H --> I[Response with Metrics]
-    I --> B
-    
-    J[Medical Sources] --> K[Data Collection]
-    K --> L[Preprocessing]
-    L --> M[Chunking]
-    M --> D
-```
-
 ### Core Components
 
 - **Data Layer**: Ethical web scraping from authoritative medical sources
